@@ -5,15 +5,6 @@
 Repositori ini merupakan implementasi dari **Tugas 1 Praktikum Pemrograman Internet** dengan materi PHP Dasar.  
 Proyek ini dibuat untuk melatih pemahaman tentang penggunaan **variabel, operator, kondisi, form input/output, serta validasi data** dalam aplikasi web sederhana.  
 
----
-
-## 👩🏻‍🎓 Identitas
-- **Nama**  : Putu Della Pradnyaswari Cipta Dewi  
-- **NIM**   : 2405551063  
-- **Prodi** : Teknologi Informasi  
-- **Mata Kuliah** : Pemrograman Internet  
-- **Dosen Pengampu** : Ir. I Nyoman Piarsa, ST., MT, IPM
-
 Dalam proyek ini, setiap mahasiswa diminta untuk membuat beberapa program kecil menggunakan PHP, dengan alur **form → server → output**.  
 Masing-masing program memiliki fungsi dan tujuan yang berbeda, yaitu:
 
@@ -46,9 +37,30 @@ Masing-masing program memiliki fungsi dan tujuan yang berbeda, yaitu:
 
 ---
 
+## 🎲 Tools yang Digunakan
+
+- **Bahasa Pemrograman** : PHP 8 (via XAMPP)  
+- **Web Server** : Apache (XAMPP)  
+- **Text Editor** : Visual Studio Code  
+- **Version Control** : Git & GitHub  
+- **UI/Styling** : 
+  - HTML5 Form Elements
+  - CSS3 (custom pastel earthy theme: krem, coklat, hijau pastel)  
+  - Flexbox (untuk layout card menu)  
+  - Sedikit JavaScript (untuk validasi input dan interaksi menu makanan)  
+
+---
+
 ## 🎨 Tampilan UI
+
 Semua halaman menggunakan tema **pastel earthy (krem, coklat, hijau pastel)** untuk memberi kesan lembut dan mudah dibaca.  
 Error ditampilkan dengan alert atau box merah pastel, sementara hasil/output ditampilkan dengan box hijau pastel.  
+Komponen utama pada UI:  
+- **Form Input** → rapi dengan label dan placeholder.  
+- **Button** → warna pastel coklat/cream dengan efek hover.  
+- **Error Message** → ditampilkan dalam box merah pastel agar mudah dikenali.  
+- **Result/Output** → ditampilkan dalam box hijau pastel agar membedakan hasil dengan input.  
+- **Menu Makanan** → menampilkan pilihan beserta gambar, harga, dan stok.
 
 ---
 
