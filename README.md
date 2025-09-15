@@ -5,6 +5,13 @@
 Repositori ini merupakan implementasi dari **Tugas 1 Praktikum Pemrograman Internet** dengan materi PHP Dasar.  
 Proyek ini dibuat untuk melatih pemahaman tentang penggunaan **variabel, operator, kondisi, form input/output, serta validasi data** dalam aplikasi web sederhana.  
 
+## 👩🏻‍🎓 Identitas
+- **Nama**  : Putu Della Pradnyaswari Cipta Dewi  
+- **NIM**   : 2405551063  
+- **Prodi** : Teknologi Informasi  
+- **Mata Kuliah** : Pemrograman Internet  
+- **Dosen Pengampu** : Ir. I Nyoman Piarsa, ST., MT, IPM
+
 Dalam proyek ini, setiap mahasiswa diminta untuk membuat beberapa program kecil menggunakan PHP, dengan alur **form → server → output**.  
 Masing-masing program memiliki fungsi dan tujuan yang berbeda, yaitu:
 
@@ -54,10 +61,11 @@ Error ditampilkan dengan alert atau box merah pastel, sementara hasil/output dit
 ## 🦋 Menu Utama 
 <img width="1919" height="1005" alt="image" src="https://github.com/user-attachments/assets/0603c17d-9ede-4222-825e-c0e60a68c31d" />
 
-## Form Ucapan
+## 🦄 Form Ucapan
 1. Greeting Form
 * Tampilan Awal
 <img width="1919" height="1003" alt="image" src="https://github.com/user-attachments/assets/d1285164-48e4-4b72-b799-691ec5fe643a" />
+
 * Tampilan Setelah diisi nama
 <img width="1919" height="1003" alt="image" src="https://github.com/user-attachments/assets/181e51da-5b16-43d7-b132-cb138ebf75a8" />
 
@@ -70,7 +78,7 @@ Error ditampilkan dengan alert atau box merah pastel, sementara hasil/output dit
 4. Validasi Angka
 <img width="1919" height="1003" alt="image" src="https://github.com/user-attachments/assets/066ae088-6864-4463-ac40-0fca9524876a" />
 
-## Kalkulator Sederhana
+## 🕷️ Kalkulator Sederhana
 # Tambah (+)
 1. Calculator Form
 <img width="1919" height="1002" alt="image" src="https://github.com/user-attachments/assets/fa4c0cb3-fed9-4318-803b-49522b7d8c71" />
@@ -102,21 +110,21 @@ Error ditampilkan dengan alert atau box merah pastel, sementara hasil/output dit
 # Validasi
 <img width="1910" height="998" alt="image" src="https://github.com/user-attachments/assets/11d9e06a-21ca-48db-9251-b0d47f1e48c3" />
 
-## Menentukan Ganjil / Genap + Prima
+## 🐬 Menentukan Ganjil / Genap + Prima
 1. Parity Form
 <img width="1919" height="1003" alt="image" src="https://github.com/user-attachments/assets/a7e6642b-4ac3-455a-99af-518d48ef2653" />
 
 2. Parity Result
 <img width="1919" height="1000" alt="image" src="https://github.com/user-attachments/assets/44b87dfd-5919-4202-828b-89e16e63f1e2" />
 
-## Menentukan Nilai Huruf
+## 🦢 Menentukan Nilai Huruf
 1. Grade Form
 <img width="1919" height="1001" alt="image" src="https://github.com/user-attachments/assets/9a157ec9-6223-42b6-a295-8b9dd1c35dcd" />
 
 2. Grade Result
 <img width="1919" height="1002" alt="image" src="https://github.com/user-attachments/assets/849929ad-6149-4e77-98f1-4477683e722c" />
 
-## Menu Makanan
+## 🥘 Menu Makanan
 1. Menu Form
 <img width="1919" height="1002" alt="image" src="https://github.com/user-attachments/assets/25233bfe-c4c4-46cf-8a8f-5aba36236c1c" />
 
@@ -129,7 +137,7 @@ Error ditampilkan dengan alert atau box merah pastel, sementara hasil/output dit
 4. Validasi Stok Lebih
 <img width="1919" height="999" alt="image" src="https://github.com/user-attachments/assets/4e802283-91b5-480e-8bb3-408b420ee53f" />
 
-## Form Biodata Singkat 
+## 🕊️ Form Biodata Singkat 
 1. Biodata Form
 <img width="1890" height="1003" alt="image" src="https://github.com/user-attachments/assets/76fda299-79ef-4ff4-a7a4-adf6246dc004" />
 
