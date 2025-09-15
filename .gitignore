@@ -1,0 +1,19 @@
+# Sistem
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Log & cache
+*.log
+*.cache
+*.bak
+*.tmp
+
+# XAMPP / Windows
+htdocs/error.log
+xampp-control.log
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
