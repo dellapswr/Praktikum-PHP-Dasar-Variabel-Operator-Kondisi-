@@ -1,7 +1,7 @@
 <?php
 // daftar_harga.php
 $harga = [
-  "Buku Tulis" => 12000,
+  "Buku Tulis" => 16000,
   "Pulpen" => 3000,
   "Pensil" => 2500,
   "Penggaris" => 2000,
