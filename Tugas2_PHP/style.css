@@ -1,0 +1,192 @@
+/* style.css - Pastel Earthy theme (coklat & krem) untuk Tugas2 - Looping & Array */
+
+/* Reset ringan */
+* { box-sizing: border-box; }
+
+/* Body & container */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #fdf6f0; /* krem pastel */
+  color: #3e2c2c; /* coklat gelap lembut */
+  margin: 0;
+  line-height: 1.45;
+}
+
+.container {
+  max-width: 980px;
+  margin: 32px auto;
+  padding: 26px;
+  background: #fffaf5; /* putih krem */
+  border-radius: 14px;
+  box-shadow: 0 8px 28px rgba(80,60,50,0.08);
+}
+
+/* Heading */
+h1, h2 {
+  text-align: center;
+  margin: 0 0 14px;
+  color: #5d3b2e; /* coklat tua */
+}
+.welcome {
+  text-align: center;
+  margin-bottom: 18px;
+  color: #6b4f4f;
+}
+
+/* Cards (menu) */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin: 12px 0 18px;
+}
+.card {
+  display: inline-block;
+  padding: 14px 18px;
+  background: #fce7d4; /* pastel oranye muda */
+  border-radius: 12px;
+  text-decoration: none;
+  color: #5d3b2e;
+  box-shadow: 0 4px 10px rgba(80,60,50,0.06);
+  min-width: 220px;
+  text-align: center;
+  font-weight: 600;
+  transition: transform .14s ease, box-shadow .14s ease;
+}
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 26px rgba(80,60,50,0.12);
+}
+
+/* Forms & inputs */
+.form-container { max-width: 860px; margin: 0 auto; }
+label { display:block; margin:10px 0 6px; color: #5a4038; font-weight:600; }
+input[type=text],
+input[type=number],
+select,
+textarea {
+  width:100%;
+  padding:10px;
+  border:1px solid #e0c9b9;
+  border-radius:8px;
+  background:#fff7f2;
+  font-size:1rem;
+  color:#3e2c2c;
+}
+
+/* Buttons */
+button {
+  margin-top:14px;
+  padding:10px 16px;
+  border:0;
+  border-radius:10px;
+  background:#d8a47f; /* pastel coklat muda */
+  color:#fff;
+  font-weight:700;
+  cursor:pointer;
+  transition: background .12s ease, transform .08s ease;
+}
+button:hover { background:#c58c66; transform: translateY(-2px); }
+
+/* Links */
+.back { display:inline-block; margin-top:12px; color:#b5651d; text-decoration:none; }
+.back:hover { text-decoration:underline; }
+
+/* Alerts and result */
+.error {
+  background:#fde2e2; /* pastel merah muda */
+  border:1px solid #f5b7b1;
+  color:#7f1d1d;
+  padding:10px;
+  border-radius:8px;
+}
+.result {
+  background:#e9f5db; /* pastel hijau muda */
+  border:1px solid #b5d99c;
+  padding:14px;
+  border-radius:8px;
+  color:#2c4026;
+}
+
+/* Small text */
+.small, .note { font-size:0.9rem; color:#6b4f4f; margin-top:8px; }
+
+/* Table styling */
+table {
+  width:100%;
+  border-collapse:collapse;
+  margin-top:12px;
+  background: #fff;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(80,60,50,0.04);
+}
+th, td {
+  padding:10px 12px;
+  border-bottom:1px solid #efe6e0;
+  color:#3e2c2c;
+}
+th {
+  background:#fff3e8;
+  font-weight:700;
+  text-align:left;
+}
+tr:nth-child(even) td { background: #fffaf7; }
+td.number { text-align:right; }
+
+/* Responsive tweaks */
+@media (max-width:720px) {
+  .cards { flex-direction:column; align-items:center; }
+  .card { min-width:unset; width:90%; }
+  .container { margin:18px; padding:16px; }
+  input[type=text], input[type=number], textarea { font-size:0.95rem; }
+}
+
+/* utility */
+.center { text-align:center; }
+
+/* Style container daftar */
+.list-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style list barang */
+.list-container ul {
+    display: inline-block;   /* biar ul bisa ditaruh di tengah */
+    text-align: left;        /* teks item tetap rata kiri */
+    background: #fff;        /* putih biar kontras */
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* Style item */
+.list-container li {
+    padding: 6px 0;
+    font-size: 16px;
+    color: #4a2c18;          /* coklat teks */
+    border-bottom: 1px solid #f2e4da;
+}
+
+.list-container li:last-child {
+    border-bottom: none;
+}
+
+/* Warna status */
+.status-lulus {
+  color: #155724;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.status-gagal {
+  color: #721c24;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 6px;
+  text-align: center;
+}
