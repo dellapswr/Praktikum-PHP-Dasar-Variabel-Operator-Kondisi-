@@ -1,0 +1,110 @@
+/* style.css - Pastel Earthy (coklat & krem) */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #fdf6f0; /* krem pastel */
+  color: #3e2c2c; /* coklat gelap lembut */
+  margin: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #fffaf5; /* putih krem */
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(100, 70, 50, 0.1);
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 18px;
+  color: #5d3b2e; /* coklat tua */
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+.card {
+  display: inline-block;
+  padding: 16px 20px;
+  background: #fce7d4; /* pastel oranye muda */
+  border-radius: 12px;
+  text-decoration: none;
+  color: #5d3b2e;
+  box-shadow: 0 4px 10px rgba(80, 60, 50, 0.08);
+  min-width: 200px;
+  text-align: center;
+  font-weight: 600;
+  transition: background 0.2s ease;
+}
+.card:hover {
+  background: #f8d7bd; /* sedikit lebih gelap */
+}
+
+label {
+  display: block;
+  margin: 10px 0 6px;
+}
+
+input[type=text],
+input[type=number],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #e0c9b9;
+  border-radius: 8px;
+  box-sizing: border-box;
+  background: #fff7f2; /* krem pastel */
+}
+
+button {
+  margin-top: 14px;
+  padding: 10px 16px;
+  border: 0;
+  border-radius: 10px;
+  background: #d8a47f; /* pastel coklat muda */
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+button:hover {
+  background: #c58c66;
+}
+
+.error {
+  background: #fde2e2; /* pastel merah muda */
+  border: 1px solid #f5b7b1;
+  color: #7f1d1d;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.result {
+  background: #e9f5db; /* pastel hijau muda */
+  border: 1px solid #b5d99c;
+  padding: 14px;
+  border-radius: 8px;
+  color: #2c4026;
+}
+
+.small, .note {
+  font-size: 0.9rem;
+  color: #6b4f4f;
+  margin-top: 8px;
+}
+
+.back {
+  display: inline-block;
+  margin-top: 12px;
+  color: #b5651d; /* coklat oranye */
+  text-decoration: none;
+}
+.back:hover {
+  text-decoration: underline;
+}
