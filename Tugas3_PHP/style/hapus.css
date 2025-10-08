@@ -1,0 +1,51 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f5f0;
+  color: #4b2e05;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  max-width: 500px;
+  background: #fffaf3;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 15px;
+  color: #5a3e1b;
+  margin-bottom: 20px;
+}
+
+.success h2 {
+  color: #4e7d4e;
+}
+
+.error h2 {
+  color: #c75050;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #b38b59;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #8d6a44;
+}

@@ -1,0 +1,84 @@
+/* 🌸 Tema umum pastel coklat */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f5f0;
+  color: #4b2e05;
+  margin: 0;
+  padding: 40px;
+}
+
+.container {
+  background: #fffaf3;
+  max-width: 700px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #5a3e1b;
+  margin-bottom: 20px;
+}
+
+p {
+  background-color: #f3e7da;
+  padding: 12px;
+  border-radius: 8px;
+  border-left: 5px solid #b38b59;
+}
+
+label {
+  display: block;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 6px;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d3bda5;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  transition: 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+  border-color: #b38b59;
+  box-shadow: 0 0 5px #b38b59;
+  outline: none;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #b38b59;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 600;
+}
+
+input[type="submit"]:hover {
+  background-color: #8d6a44;
+}
+
+.back {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #5a3e1b;
+  font-weight: 500;
+}
+
+.back:hover {
+  text-decoration: underline;
+  color: #9c7447;
+}

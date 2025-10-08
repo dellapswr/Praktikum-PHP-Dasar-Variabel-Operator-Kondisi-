@@ -1,0 +1,105 @@
+/* 🎨 Tema pastel coklat lembut */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f5f0;
+  color: #4b2e05;
+  margin: 0;
+  padding: 40px;
+}
+
+/* 📦 Container utama */
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: #fffaf3;
+  padding: 35px 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* 🧾 Judul halaman */
+h2 {
+  text-align: center;
+  color: #5a3e1b;
+  margin-bottom: 25px;
+}
+
+/* 🧍 Info mahasiswa */
+p {
+  background-color: #f3e7da;
+  padding: 10px 15px;
+  border-radius: 8px;
+  border-left: 5px solid #b38b59;
+  color: #4b2e05;
+  font-size: 15px;
+}
+
+/* 🧩 Label dan Input */
+label {
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #4b2e05;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #d3bda5;
+  border-radius: 8px;
+  background-color: #fffdf9;
+  transition: 0.3s;
+  font-size: 15px;
+  color: #4b2e05;
+}
+
+/* 🎯 Efek fokus */
+input[type="text"]:focus,
+input[type="number"]:focus {
+  border-color: #b38b59;
+  box-shadow: 0 0 5px #b38b59;
+  outline: none;
+}
+
+/* 💾 Tombol Simpan */
+input[type="submit"] {
+  margin-top: 25px;
+  width: 100%;
+  background-color: #b38b59;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #9c7447;
+}
+
+/* ⚠️ Pesan Validasi */
+#pesan {
+  color: #c24b00;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 12px;
+}
+
+/* 🔙 Tombol Kembali */
+.back {
+  display: inline-block;
+  margin-top: 25px;
+  text-decoration: none;
+  color: #5a3e1b;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.back:hover {
+  text-decoration: underline;
+  color: #9c7447;
+}

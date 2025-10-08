@@ -1,0 +1,129 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f5f0;
+  color: #4b2e05;
+  margin: 0;
+  padding: 40px;
+}
+
+.container {
+  background: #fffaf3;
+  max-width: 900px;
+  margin: auto;
+  padding: 25px 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #5a3e1b;
+  margin-bottom: 20px;
+}
+
+p {
+  background-color: #f3e7da;
+  padding: 12px;
+  border-radius: 8px;
+  border-left: 5px solid #b38b59;
+  margin-bottom: 25px;
+}
+
+/* Tombol Tambah Nilai */
+.btn-tambah {
+  display: inline-block;
+  background-color: #b38b59;
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+.btn-tambah:hover {
+  background-color: #9c7447;
+}
+
+/* Tabel */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fffdf9;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #d3bda5;
+  text-align: center;
+}
+
+th {
+  background-color: #b38b59;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f3e7da;
+}
+
+.no-data {
+  text-align: center;
+  color: #a77b42;
+  font-style: italic;
+  padding: 15px;
+}
+
+/* Tombol aksi */
+.aksi {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px 10px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+/* Edit */
+.btn-edit {
+  background-color: #e2b679;
+  color: #4b2e05;
+}
+
+.btn-edit:hover {
+  background-color: #d9a85d;
+}
+
+/* Hapus */
+.btn-hapus {
+  background-color: #e57373;
+  color: white;
+}
+
+.btn-hapus:hover {
+  background-color: #d45a5a;
+}
+
+/* Kembali */
+.back {
+  display: inline-block;
+  margin-top: 25px;
+  text-decoration: none;
+  color: #5a3e1b;
+  font-weight: 500;
+}
+
+.back:hover {
+  text-decoration: underline;
+  color: #9c7447;
+}

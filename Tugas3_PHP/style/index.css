@@ -1,0 +1,130 @@
+/* 🌸 Tema pastel coklat elegan */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f5f0;
+  color: #4b2e05;
+  margin: 0;
+  padding: 40px;
+}
+
+/* 📦 Container utama */
+.container {
+  background-color: #fffaf3;
+  max-width: 900px;
+  margin: auto;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* 🏷️ Judul halaman */
+h2 {
+  color: #5a3e1b;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* 🔍 Input pencarian */
+#keyword {
+  width: 70%;
+  padding: 10px 15px;
+  border: 1px solid #d3bda5;
+  border-radius: 10px;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+#keyword:focus {
+  border-color: #b38b59;
+  box-shadow: 0 0 5px #b38b59;
+  outline: none;
+}
+
+/* ➕ Tombol tambah */
+a.tambah {
+  display: inline-block;
+  background-color: #b38b59;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-left: 10px;
+  transition: 0.3s;
+  font-weight: 500;
+}
+
+a.tambah:hover {
+  background-color: #9c7447;
+}
+
+/* 📊 Tabel data */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 25px;
+  background-color: #fffdf9;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th,
+td {
+  border: 1px solid #d3bda5;
+  padding: 12px;
+  text-align: center;
+  font-size: 15px;
+}
+
+th {
+  background-color: #b38b59;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f3e7da;
+}
+
+/* 🧩 Tombol aksi */
+.btn {
+  display: inline-block;
+  padding: 6px 10px;
+  margin: 2px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+/* Warna tombol */
+.btn-input {
+  background-color: #b38b59;
+}
+.btn-input:hover {
+  background-color: #9b7748;
+}
+
+.btn-edit {
+  background-color: #66a182;
+}
+.btn-edit:hover {
+  background-color: #4f856a;
+}
+
+.btn-hapus {
+  background-color: #d36b6b;
+}
+.btn-hapus:hover {
+  background-color: #b54f4f;
+}
+
+/* 📜 Footer */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  color: #7b5b36;
+  font-size: 14px;
+  opacity: 0.9;
+}

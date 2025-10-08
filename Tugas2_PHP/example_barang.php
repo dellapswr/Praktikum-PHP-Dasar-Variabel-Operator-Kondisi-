@@ -23,7 +23,7 @@ $barang = [
 <html lang="id">
 <head><meta charset="utf-8"><title>Daftar Barang</title><link rel="stylesheet" href="style.css"></head>
 <body>
-  <div class="container form-container">
+    <div class="container form-container">
     <h2>Daftar Barang</h2>
     <p>Menampilkan daftar barang dari indexed array menggunakan foreach.</p>
     <h3>Daftar Barang:</h3>
