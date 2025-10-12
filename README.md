@@ -357,3 +357,252 @@ Dengan adanya latihan ini, mahasiswa diharapkan dapat:
 - Menguasai teknik looping (for, foreach) untuk menampilkan data.  
 - Menambahkan kondisi pada data (misalnya status kelulusan).  
 - Membuat tampilan lebih interaktif dan informatif dengan CSS.
+
+---
+
+# 🔗Tugas 3 — PHP, MySQL, AJAX & JSON
+Dalam proyek ini, mahasiswa diminta membuat aplikasi sederhana untuk mengelola data mahasiswa dan nilai secara dinamis, dengan integrasi antara frontend (HTML, CSS, JS) dan backend (PHP, MySQL).
+Semua fitur CRUD (Create, Read, Update, Delete) harus berjalan, dengan pencarian data menggunakan AJAX.
+
+---
+
+## 🎯 Tujuan Pembelajaran
+- Memahami proses client–server asynchronous menggunakan AJAX.
+- Menerapkan validasi data di sisi client dan server.
+- Mengelola data menggunakan database MySQL.
+- Mengirim dan menerima data dalam format JSON.
+- Mendesain UI yang konsisten, rapi, dan user-friendly.
+
+---
+
+## 🖥️ Teknologi yang Digunakan
+- **Frontend:** HTML5, CSS3, JavaScript (AJAX Fetch API)  
+- **Backend:** PHP 8  
+- **Database:** MySQL  
+- **Format Data:** JSON  
+- **Tema:** Pastel Coklat  
+
+---
+
+## 🧩 Fitur Utama
+✨ **Fitur CRUD Mahasiswa**
+- Tambah data mahasiswa baru  
+- Edit data mahasiswa  
+- Hapus data mahasiswa  
+- Cari mahasiswa secara _real-time_ menggunakan AJAX  
+
+📚 **Fitur Pengelolaan Nilai**
+- Input nilai berdasarkan mata kuliah  
+- Validasi nilai otomatis (0.00 – 4.00)  
+- Konversi nilai angka ke huruf (A–E)  
+- Edit dan hapus nilai mahasiswa  
+- Validasi input (mata kuliah hanya huruf & spasi, SKS 1–4)  
+
+🔍 **Fitur AJAX**
+- Pencarian data mahasiswa tanpa reload halaman  
+- Data ditampilkan menggunakan respon JSON dari PHP  
+
+🎨 **Tampilan (UI/UX)**
+- Menggunakan tema **pastel coklat elegan**  
+- Desain responsif dan rapi untuk desktop maupun mobile  
+- Gaya visual konsisten antarhalaman (index, tambah, edit, nilai)
+
+---
+
+## 🗃️ Struktur Database
+### Database: `db_kampus`
+<img width="345" height="202" alt="image" src="https://github.com/user-attachments/assets/3df325a9-c610-4bc4-a009-53254aaee68e" />
+
+#### Tabel: `mahasiswa`
+<img width="1525" height="453" alt="image" src="https://github.com/user-attachments/assets/29ad274f-aa60-4d36-a06e-ea30edaffd73" />
+
+#### Tabel: `nilai`
+<img width="1518" height="540" alt="image" src="https://github.com/user-attachments/assets/7f147de4-cfcf-4292-8214-2c92be47ec2a" />
+
+---
+
+## 🧠 Logika Validasi
+### 💡 Validasi Data Mahasiswa
+- NIM minimal 5 karakter  
+- Nama dan Prodi tidak boleh kosong  
+
+### 💡 Validasi Nilai
+- Mata kuliah hanya boleh huruf dan spasi (tanpa angka/simbol)  
+- SKS harus antara 1–4  
+- Nilai angka harus antara 0.00–4.00  
+
+Nilai angka secara otomatis dikonversi menjadi huruf:
+| Rentang Nilai  | Nilai Huruf |
+|----------------|-------------|
+| ≥ 3.75         |       A     |
+| ≥ 3.00         |       B     |
+| ≥ 2.00         |       C     |
+| ≥ 1.00         |       D     |
+| < 1.00         |       E     |
+
+---
+
+## ⚡ Cara Menjalankan
+1. Simpan project di: C:\xampp\htdocs\ProgNet\Tugas3_PHP  
+2. Jalankan Apache dan MySQL di XAMPP.  
+3. Buat database dengan nama db_kampus.  
+4. Jalankan di browser: http://localhost/ProgNet/Tugas3_PHP/index.php  
+
+---
+
+## 🖥️ Teknologi yang Digunakan
+- **Frontend:** HTML5, CSS3, JavaScript (AJAX Fetch API)  
+- **Backend:** PHP 8  
+- **Database:** MySQL  
+- **Format Data:** JSON  
+- **Tema:** Pastel Coklat Elegan  
+
+---
+
+# 🖼️ Cuplikan Tampilan 
+## Halaman Utama
+<img width="1919" height="953" alt="image" src="https://github.com/user-attachments/assets/540414db-a43b-4a8b-a02f-bddb4b6fc9b8" />
+
+## Cari Mahasiswa
+1. Berdasarkan Nama
+<img width="1919" height="952" alt="image" src="https://github.com/user-attachments/assets/65cdd019-724e-4e64-997c-06b172f9cd4a" />
+
+2. Berdasarkan NIM
+<img width="1919" height="951" alt="image" src="https://github.com/user-attachments/assets/274aa33f-710d-46ee-8245-82b96e9d2d8c" />
+
+3. Berdasarkan Prodi
+<img width="1919" height="949" alt="image" src="https://github.com/user-attachments/assets/ecbb441f-c421-47df-b446-b918aa9e894c" />
+
+## Tambah Mahasiswa
+1. Masukkan Data Mahasiswa
+<img width="1872" height="949" alt="image" src="https://github.com/user-attachments/assets/fc952406-94c5-418e-b854-4a82befa1f03" />
+
+2. Data Berhasil Disimpan
+<img width="1919" height="942" alt="image" src="https://github.com/user-attachments/assets/84b4b372-3c48-40ec-b5b8-f4e753550761" />
+
+3. Validasi Ketika Data Kosong
+<img width="1866" height="943" alt="image" src="https://github.com/user-attachments/assets/3cf6302c-b561-49da-ac5d-50e890ed6f85" />
+
+4. Validasi Ketika NIM < 5 Karakter & NIM Harus Angka
+<img width="1868" height="947" alt="image" src="https://github.com/user-attachments/assets/9b69bc45-8268-40d6-8361-a07e03ad6c6e" />
+
+5. Validasi Ketika Nama dan Prodi Kosong
+<img width="1884" height="945" alt="image" src="https://github.com/user-attachments/assets/f7028755-a236-4eff-be69-56c16558d6df" />
+
+## Edit Data Mahasiswa
+1. Ubah NIM Mahasiswa
+<img width="1907" height="845" alt="image" src="https://github.com/user-attachments/assets/99f507f0-f21f-4a27-99bf-3782a52f7088" />
+
+2. Simpan Perubahan
+<img width="1919" height="944" alt="image" src="https://github.com/user-attachments/assets/629b493b-c1cb-472f-8291-4627573dfc10" />
+
+3. Hasil Perubahan
+<img width="1882" height="951" alt="image" src="https://github.com/user-attachments/assets/6ee6a27f-2346-4263-8072-8ac297887762" />
+
+4. Validasi Apabila Ingin Memasukkan Selain Angka Pada NIM
+<img width="1919" height="951" alt="image" src="https://github.com/user-attachments/assets/455d7d93-af94-413f-bde0-5f866d5519bf" />
+
+## Daftar Nilai
+1. Tampilan Daftar Nilai
+<img width="1919" height="947" alt="image" src="https://github.com/user-attachments/assets/170a1173-6edb-45c1-bff6-579d27c402a6" />
+
+2. Tambah Daftar Nilai
+<img width="1877" height="855" alt="image" src="https://github.com/user-attachments/assets/b3bdefbb-366f-4d93-9a87-1615a3b9c5cf" />
+
+3. Berhasil Disimpan
+<img width="1919" height="953" alt="image" src="https://github.com/user-attachments/assets/4051b627-311c-48c9-8764-bfa40eeff514" />
+
+4. Hasil Daftar Nilai
+<img width="1919" height="947" alt="image" src="https://github.com/user-attachments/assets/ccdf720b-aff5-4ff0-8adb-411ed92a2c63" />
+
+5. Validasi Apabila Nama MatKul Bukan Hanya Huruf
+<img width="1867" height="843" alt="image" src="https://github.com/user-attachments/assets/2ed8eb8f-fff5-46ce-802b-6ab8d1f05540" />
+
+6. Validasi Apabila SKS Lebih Dari 4
+<img width="1876" height="854" alt="image" src="https://github.com/user-attachments/assets/d4ee0d90-065b-4fdc-90a9-1fd5f7b42e8d" />
+
+7. Validasi Apabila Nilai > 4.00 & Nilai Harus Angka
+<img width="1889" height="847" alt="image" src="https://github.com/user-attachments/assets/d86094bc-e30d-42eb-bc41-47a24cbd8ab5" />
+
+## Edit Daftar Nilai
+1. Ubah Nilai
+<img width="1880" height="859" alt="image" src="https://github.com/user-attachments/assets/b4d32b1a-60c3-49e8-8714-8f66105f3c89" />
+
+2. Berhasil Disimpan
+<img width="1917" height="948" alt="image" src="https://github.com/user-attachments/assets/0ae0564a-1e22-4926-8e18-52af4f86b023" />
+
+3. Tampilan Setelah Diubah
+<img width="1913" height="846" alt="image" src="https://github.com/user-attachments/assets/73041258-c3f8-4f87-bb6b-06e97dbb087b" />
+
+## Hapus Salah Satu Dartar Nilai
+1. Pilih Mata Kuliah
+<img width="1916" height="956" alt="image" src="https://github.com/user-attachments/assets/e2d95c49-2981-4b25-a268-756460aec3dc" />
+
+2. Hapus Mata Kuliah
+<img width="1919" height="949" alt="image" src="https://github.com/user-attachments/assets/4ae69e04-44b9-43f0-a29a-c54470f279cd" />
+
+3. Nilai Mata Kuliah Berhasil Menghapus
+<img width="1919" height="950" alt="image" src="https://github.com/user-attachments/assets/24e5206c-39be-45e1-a7f5-6845a30695e8" />
+
+4. Tampilan Setelah Dihapus
+<img width="1919" height="950" alt="image" src="https://github.com/user-attachments/assets/1f453221-e6c5-4090-a4b1-b2fe57b76d11" />
+
+## Hapus Salah Satu Mahasiswa
+1. Pilih Mahasiswa
+<img width="1889" height="859" alt="image" src="https://github.com/user-attachments/assets/17d78f3b-1240-4fd9-80bd-90364a75bd03" />
+
+2. Hapus Mahasiswa
+<img width="1883" height="955" alt="image" src="https://github.com/user-attachments/assets/72e41842-c82e-49d0-93a6-7b6a4b117336" />
+
+3. Mahasiswa Berhasil Dihapus
+<img width="1919" height="955" alt="image" src="https://github.com/user-attachments/assets/c7c3f722-3ec2-4827-8736-8aefb7bc54e7" />
+
+4. Tampilan Setelah Dihapus
+<img width="1880" height="841" alt="image" src="https://github.com/user-attachments/assets/24326d7e-c056-4743-b29b-53116fcd3069" />
+
+## Tampilan Pada phpMyAdmin
+### Mahasiswa
+1. Tampilan Awal
+<img width="1527" height="848" alt="image" src="https://github.com/user-attachments/assets/0a10dcdf-bf1c-489e-9718-023d5f9800af" />
+
+2. Setelah Ditambahkan Mahasiswa
+<img width="1524" height="790" alt="image" src="https://github.com/user-attachments/assets/a0b52d4a-6a30-4a0d-86e5-5e969f8d0b3c" />
+
+3. Setelah NIM Diubah
+<img width="1522" height="777" alt="image" src="https://github.com/user-attachments/assets/ccaf0cb2-5463-4af2-b677-2f385148d87a" />
+
+4. Setelah Dihapus
+<img width="1523" height="844" alt="image" src="https://github.com/user-attachments/assets/0ee3022e-8bea-435c-b336-6ef49ec05f5f" />
+
+### Nilai
+1. Tampilan Awal
+<img width="1525" height="647" alt="image" src="https://github.com/user-attachments/assets/90f3d559-a135-4768-825a-9a5cb6867d0a" />
+
+2. Setelah Ditambahkan Nilai
+<img width="1525" height="683" alt="image" src="https://github.com/user-attachments/assets/3eb74604-e6ba-461e-b5a1-cc389371f84b" />
+
+3. Setelah Bobot Nilai Diubah
+<img width="1524" height="702" alt="image" src="https://github.com/user-attachments/assets/2f9d6c3d-6478-4fc4-9830-21a0585ea13a" />
+
+4. Setelah Dihapus
+<img width="1527" height="696" alt="image" src="https://github.com/user-attachments/assets/7ea716b7-85ef-40ce-ac8b-90e7c0b16137" />
+
+---
+
+## 🧠 Pembelajaran yang Didapat
+- Cara menghubungkan frontend dan backend menggunakan AJAX.
+- Proses pertukaran data format JSON antara client dan server.
+- Teknik validasi ganda (client & server).
+- Pengelolaan database menggunakan PHP & MySQL.
+- Mendesain tampilan web yang rapi, lembut, dan konsisten.
+
+---
+
+## 📝 Penutup
+Tugas ini dibuat untuk memenuhi Praktikum Pemrograman Internet (PHP Lanjutan & AJAX), serta melatih kemampuan dalam:
+- Mengimplementasikan CRUD berbasis database.
+- Menggunakan AJAX untuk membuat web yang lebih interaktif.
+- Mendesain UI yang harmonis dan mudah digunakan.
+Dengan tugas ini, mahasiswa diharapkan mampu memahami alur kerja client–server asynchronous, serta menguasai dasar-dasar pengembangan web dinamis yang efisien dan menarik.
+
+---
